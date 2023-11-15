@@ -1,0 +1,1372 @@
+[INFO] Logger started at 2023-11-01 22:02:52
+[INFO] Executable name: /home/gregor/Downloads/tws-latest-linux-x64.sh
+[INFO] install4j version: 9.0.8 (build 9199)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=/home/gregor/Downloads/tws-latest-lin...
+sun.boot.library.path=/home/gregor/Downloads/tws-latest-lin...
+java.vm.version=25.202-b08
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=:
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.country=GB
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+install4j.exeDir=/home/gregor/Downloads/
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/home/gregor/Downloads/tws-latest-lin...
+java.runtime.version=1.8.0_202-b08
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.endorsed.dirs=/home/gregor/Downloads/tws-latest-lin...
+os.arch=amd64
+java.io.tmpdir=/tmp
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+os.name=Linux
+jdk.http.auth.tunneling.disabledSchemes=
+exe4j.totalDataLength=6069907
+sun.jnu.encoding=UTF-8
+java.library.path=/home/gregor/Downloads/tws-latest-lin...
+jdk.lang.Process.allowAmbiguousCommands=false
+sun.awt.enableExtraMouseButtons=true
+install4j.launcherId=6774
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=6.5.8-arch1-1
+install4j.swt=false
+user.home=/home/gregor
+install4j.cwd=/home/gregor/Downloads
+user.timezone=Europe/London
+java.awt.printerjob=sun.print.PSPrinterJob
+java.specification.version=1.8
+file.encoding=UTF-8
+install4j.jvmDir=/home/gregor/Downloads/tws-latest-lin...
+java.net.useSystemProxies=true
+user.name=gregor
+java.class.path=i4jruntime.jar:launcher0.jar
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=/home/gregor/Downloads/tws-latest-lin...
+sun.java.command=install4j.Installer3118837495
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.awt.X11.XToolkit
+java.vm.info=mixed mode
+java.version=1.8.0_202
+java.ext.dirs=/home/gregor/Downloads/tws-latest-lin...
+sun.boot.class.path=/home/gregor/Downloads/tws-latest-lin...
+java.vendor=Oracle Corporation
+install4j.appDir=/home/gregor/Downloads/
+file.separator=/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.font.fontmanager=sun.awt.X11FontManager
+sun.cpu.isalist=
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=true[class java.lang.String]
+[INFO] System language 'en'
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 3121]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_1
+       Property variableName: installerType
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: true
+       Property rollbackSupported: false
+       Variable changed: installerType=updatable[class java.lang.String]
+       Execute action successful after 17 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6384]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_2
+       Property rollbackSupported: false
+       Variable changed: sys.installationDir=/home/gregor/Jts[class java.lang.String]
+       Execute action successful after 9 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 4410]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_4
+       Property variableName: prevInstallDir
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Checking application registry [appId: 5889-6375-8446-2021]...
+       No existing installations found.
+       Variable changed: prevInstallDir=null
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 3516]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_5
+       Property variableName: appInstalled
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: appInstalled=false[class java.lang.Boolean]
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 3533]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_7
+       Property variableName: sameChannelInstalled
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: sameChannelInstalled=false[class java.lang.Boolean]
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 1892]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_8
+       Property variableName: exeName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: true
+       Property rollbackSupported: false
+       Variable changed: exeName=tws[class java.lang.String]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 1682]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_9
+       Property variableName: skipUpdateCheck
+       Property failIfNull: true
+       Property onlyIfUndefined: true
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: skipUpdateCheck=false[class java.lang.Boolean]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 2821]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_10
+       Property variableName: skipExecuteLauncher
+       Property failIfNull: true
+       Property onlyIfUndefined: true
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: skipExecuteLauncher=false[class java.lang.Boolean]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 2668]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_11
+       Property variableName: nightlyEntitled
+       Property failIfNull: true
+       Property onlyIfUndefined: true
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: nightlyEntitled=false[class java.lang.Boolean]
+       Execute action successful after 12 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 2742]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_12
+       Property variableName: autoInstall
+       Property failIfNull: true
+       Property onlyIfUndefined: true
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: autoInstall=false[class java.lang.Boolean]
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5734]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_13
+       Property variableName: downloadableJars
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: downloadableJars=[log4j-api-2.17.1.jar, log4j-core-2.17.1.jar, commons-io-2.11.0.jar, jackson-core-2.12.3.jar, twslaunch-install4j-1.12.jar][class java.util.LinkedList]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 3538]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 3538]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 6374]: Show screen
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 6374]: command: go back 1 screens using history
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 3538]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 3538]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 6374]: Show screen
+       Variable changed: sys.installationDir=/home/gregor/.config/TraderWorkstation[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 6374]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6378]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_22
+       Property variableName: jtsConfigDir
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: true
+       Property rollbackSupported: false
+       Variable changed: jtsConfigDir=/home/gregor/Jts[class java.lang.String]
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6379]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_23
+       Property variableName: cmdLineArgs
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: true
+       Property rollbackSupported: false
+       Variable changed: cmdLineArgs=[/home/gregor/Jts, ndc1.ibllc.com:4000][class [Ljava.lang.String;]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6380]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_24
+       Property variableName: iconArgs
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: iconArgs=-J-DjtsConfigDir="/home/gregor/Jts"[class java.lang.String]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6590]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_27
+       Property variableName: vmOptionsPath
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: vmOptionsPath=/home/gregor/.config/TraderWorkstation/tws.vmoptions[class java.lang.String]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6382]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_28
+       Property variableName: savedVmOptions
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       VM options file not found: /home/gregor/.config/TraderWorkstation/tws.vmoptions
+       Variable changed: savedVmOptions={content=}[class java.util.HashMap]
+       Execute action successful after 4 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6383]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_29
+       Property variableName: mergedVmOptions
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: mergedVmOptions=#
+# This file contains VM parameters for Trader Workstation.
+# Each parameter should be defined in a separate line and the
+# last line must be followed by a line feed. No leading or
+# trailing whitespaces are allowed in the same line, where a
+# parameter is defined.
+#
+# Lines starting with a '#' character are treated as comments
+# and ignored. Additionally, if a line contains a
+# '### keep on update' string, all parameters defined below will
+# be preserved on update.
+#
+
+# maximum Java heap size
+-Xmx768m
+
+# GC settings
+-XX:+UseG1GC
+-XX:MaxGCPauseMillis=200
+-XX:ParallelGCThreads=20
+-XX:ConcGCThreads=5
+-XX:InitiatingHeapOccupancyPercent=70
+
+# preferred channel for updates ("stable", "latest", "beta")
+-Dchannel=latest
+
+-Dinstaller.uuid=c0e4d90b-b1ae-4277-8223-d01e984b6f5f
+-DvmOptionsPath=/home/gregor/.config/TraderWorkstation/tws.vmoptions
+-Dsun.awt.nopixfmt=true
+-Dsun.java2d.noddraw=true
+-Dswing.boldMetal=false
+-Dsun.locale.formatasdefault=true
+
+### keep on update
+[class java.lang.String]
+       Execute action successful after 4 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property acceptAllCertificates: false
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property validateApplicationId: false
+       checking writable with maximum
+       (+1)
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/COPYRIGHT; size: 3244 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/LICENSE; size: 40 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/README; size: 46 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/THIRDPARTYLICENSEREADME-JAVAFX.txt; size: 112724 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/THIRDPARTYLICENSEREADME.txt; size: 153824 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/Welcome.html; size: 955 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/._ControlPanel; size: 212 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/unpack200; size: 182616 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/rmid; size: 8584 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/rmiregistry; size: 8592 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/java; size: 8464 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/javaws; size: 140296 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/servertool; size: 8592 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/orbd; size: 8656 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/keytool; size: 8584 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/policytool; size: 8592 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/pack200; size: 8584 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/jjs; size: 8584 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/tnameserv; size: 8656 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/bin/jcontrol; size: 6264 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.SuSE.10.properties.src; size: 16772 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/psfontj2d.properties; size: 10393 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.properties.src; size: 1938 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.RedHat.5.properties.src; size: 8841 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/logging.properties; size: 2455 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/sound.properties; size: 1210 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/currency.data; size: 4134 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/plugin.jar; size: 942815 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:52 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/calendars.properties; size: 1378 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/management-agent.jar; size: 370 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:54 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy.jar; size: 2246224 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:49 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/hijrah-config-umalqura.properties; size: 13962 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.SuSE.11.bfc; size: 7032 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.SuSE.10.bfc; size: 6702 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.SuSE.11.properties.src; size: 16781 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/jsse.jar; size: 672992 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:51 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.Turbo.bfc; size: 4668 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/net.properties; size: 5352 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/jfr.jar; size: 558903 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:50 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/javafx.properties; size: 56 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/tzdb.dat; size: 105734 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.RedHat.6.properties.src; size: 8735 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.Turbo.properties.src; size: 9192 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/jvm.hprof.txt; size: 4226 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/resources.jar; size: 3505213 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:54 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/content-types.properties; size: 5916 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.bfc; size: 1678 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/meta-index; size: 2034 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/javaws.jar; size: 484799 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:50 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/rt.jar; size: 66039684 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:33 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/jce.jar; size: 115646 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/flavormap.properties; size: 3901 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.RedHat.6.bfc; size: 4250 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/psfont.properties.ja; size: 2796 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fontconfig.RedHat.5.bfc; size: 4532 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/classlist; size: 84311 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/charsets.jar; size: 3133655 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:53 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/jexec; size: 13376 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/jfxswt.jar; size: 33471 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:52 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fonts/LucidaSansRegular.ttf; size: 698236 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fonts/LucidaTypewriterRegular.ttf; size: 242700 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fonts/fonts.dir; size: 4041 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fonts/LucidaBrightDemiBold.ttf; size: 75144 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fonts/LucidaSansDemiBold.ttf; size: 317896 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fonts/LucidaBrightRegular.ttf; size: 344908 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fonts/LucidaBrightItalic.ttf; size: 80856 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fonts/LucidaBrightDemiItalic.ttf; size: 75124 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/fonts/LucidaTypewriterBold.ttf; size: 234068 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/mime/packages/x-java-archive.xml; size: 1822 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/mime/packages/x-java-jnlp-file.xml; size: 412 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/applications/sun-java.desktop; size: 777 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/applications/sun-javaws.desktop; size: 619 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/applications/sun_java.desktop; size: 624 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/48x48/apps/sun-jcontrol.png; size: 1507 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/48x48/apps/sun-javaws.png; size: 1507 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/48x48/apps/sun-java.png; size: 1507 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 1948 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-text-x-java.png; size: 1948 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 1948 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/16x16/apps/sun-jcontrol.png; size: 519 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/16x16/apps/sun-javaws.png; size: 519 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/16x16/apps/sun-java.png; size: 519 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 525 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-text-x-java.png; size: 525 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 525 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-jcontrol.png; size: 3410 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-javaws.png; size: 3410 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-java.png; size: 3410 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 2085 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-text-x-java.png; size: 2085 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 2085 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-jcontrol.png; size: 402 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-javaws.png; size: 402 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-java.png; size: 402 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 473 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-text-x-java.png; size: 473 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 473 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/48x48/apps/sun-jcontrol.png; size: 3451 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/48x48/apps/sun-javaws.png; size: 3451 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/48x48/apps/sun-java.png; size: 3451 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 2088 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-text-x-java.png; size: 2088 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 2088 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/16x16/apps/sun-jcontrol.png; size: 417 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/16x16/apps/sun-javaws.png; size: 417 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/16x16/apps/sun-java.png; size: 417 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 464 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-text-x-java.png; size: 464 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 464 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/48x48/apps/sun-jcontrol.png; size: 1439 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/48x48/apps/sun-javaws.png; size: 1439 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/48x48/apps/sun-java.png; size: 1439 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 3202 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-text-x-java.png; size: 3202 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 3202 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/16x16/apps/sun-jcontrol.png; size: 383 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/16x16/apps/sun-javaws.png; size: 383 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/16x16/apps/sun-java.png; size: 383 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 783 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-text-x-java.png; size: 783 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 783 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/management/jmxremote.access; size: 3998 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/management/snmp.acl.template; size: 3376 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/management/management.properties; size: 14630 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/management/jmxremote.password.template; size: 2856 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/oblique-fonts/fonts.dir; size: 2115 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/oblique-fonts/LucidaTypewriterBoldOblique.ttf; size: 63168 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/oblique-fonts/LucidaSansOblique.ttf; size: 253724 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/oblique-fonts/LucidaTypewriterOblique.ttf; size: 137484 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/oblique-fonts/LucidaSansDemiOblique.ttf; size: 91352 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjavafx_font_pango.so; size: 25560 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libglib-lite.so; size: 1538352 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libavplugin-ffmpeg-56.so; size: 51920 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjava_crw_demo.so; size: 26144 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libfontmanager.so; size: 490672 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libverify.so; size: 66112 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libavplugin-56.so; size: 51784 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libresource.so; size: 13456 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libglass.so; size: 13072 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjavafx_font_t2k.so; size: 1486128 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libavplugin-57.so; size: 51784 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjsdt.so; size: 12904 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/jvm.cfg; size: 627 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libavplugin-ffmpeg-57.so; size: 51784 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libprism_sw.so; size: 71608 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libavplugin-53.so; size: 51720 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjsound.so; size: 8232 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjfxmedia.so; size: 1636376 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libsunec.so; size: 283368 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjsoundalsa.so; size: 83256 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libfxplugins.so; size: 151448 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libdt_socket.so; size: 24616 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libunpack.so; size: 197712 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjawt.so; size: 8048 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libzip.so; size: 127016 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libj2pcsc.so; size: 18296 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libawt.so; size: 759184 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjaas_unix.so; size: 8192 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libglassgtk3.so; size: 845304 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/liblcms.so; size: 526872 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libsplashscreen.so; size: 441376 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libnpjp2.so; size: 216592 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjavafx_iio.so; size: 256336 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libsctp.so; size: 29552 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libgstreamer-lite.so; size: 2263872 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libnet.so; size: 116920 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libawt_headless.so; size: 39176 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjpeg.so; size: 292520 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjsig.so; size: 13336 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libprism_common.so; size: 59008 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libdcpr.so; size: 204456 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libbci.so; size: 12760 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libnpt.so; size: 17504 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libj2gss.so; size: 47688 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libawt_xawt.so; size: 470232 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libt2k.so; size: 504840 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjavafx_font_freetype.so; size: 27616 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libnio.so; size: 93872 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libglassgtk2.so; size: 844984 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libinstrument.so; size: 51560 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjdwp.so; size: 272248 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjava.so; size: 227672 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libhprof.so; size: 175504 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libmlib_image.so; size: 1048136 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libj2pkcs11.so; size: 79472 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libavplugin-54.so; size: 51768 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libprism_es2.so; size: 63808 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libmanagement.so; size: 51808 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjfxwebkit.so; size: 91014584 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjfr.so; size: 28384 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libdecora_sse.so; size: 74912 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libdeploy.so; size: 642368 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libjavafx_font.so; size: 17104 bytes; exists: false
+       File options set to: [fileTime: Wed Dec 12 10:20:55 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/libavplugin-55.so; size: 51784 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/server/Xusage.txt; size: 1423 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/server/libjvm.so; size: 17045016 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/server/._libjsig.so; size: 212 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/amd64/jli/libjli.so; size: 108616 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/ext/zipfs.jar; size: 67503 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:47 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/ext/cldrdata.jar; size: 3837830 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:39 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/ext/sunec.jar; size: 41672 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/ext/nashorn.jar; size: 1983134 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:35 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/ext/localedata.jar; size: 1174481 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:45 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/ext/sunjce_provider.jar; size: 279326 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/ext/meta-index; size: 1269 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:33 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/ext/jfxrt.jar; size: 18475314 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:44 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/ext/jaccess.jar; size: 43839 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:46 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/ext/dnsns.jar; size: 8150 bytes; exists: false
+       File options set to: [fileTime: Wed Mar 10 20:15:44 GMT 2021, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/ext/sunpkcs11.jar; size: 250218 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages_de.properties; size: 3306 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/splash.gif; size: 8590 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/splash_11-lic.gif; size: 7805 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages_ko.properties; size: 5712 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages_fr.properties; size: 3409 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/ffjcext.zip; size: 13454 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages_zh_TW.properties; size: 3752 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages_pt_BR.properties; size: 3285 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages_zh_HK.properties; size: 3752 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/java-icon.ico; size: 29926 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/MixedCodeMainDialog.ui; size: 4507 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/MixedCodeMainDialogJs.ui; size: 6110 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages_ja.properties; size: 6349 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages_zh_CN.properties; size: 4072 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages_es.properties; size: 3600 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages_sv.properties; size: 3384 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages_it.properties; size: 3223 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/mixcode_s.png; size: 3115 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/cautionshield.icns; size: 3588 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/splash@2x.gif; size: 15276 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/splash_11@2x-lic.gif; size: 12250 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/deploy/messages.properties; size: 2860 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/cursors/cursors.properties; size: 1274 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/cursors/motif_LinkDrop32x32.gif; size: 162 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/cursors/motif_CopyDrop32x32.gif; size: 158 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/cursors/motif_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/cursors/invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/cursors/motif_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/cursors/motif_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/cursors/motif_MoveDrop32x32.gif; size: 141 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/icons/sun-java_LowContrast.png; size: 4012 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/icons/sun-java_HighContrast.png; size: 3729 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/icons/sun-java.png; size: 4707 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/images/icons/sun-java_HighContrastInverse.png; size: 3777 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/jfr/default.jfc; size: 20109 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/jfr/profile.jfc; size: 20065 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/security/trusted.libraries; size: 0 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/security/blacklisted.certs; size: 1273 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/security/java.security; size: 41528 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/security/blacklist; size: 4054 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/security/java.policy; size: 2466 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/security/cacerts; size: 104430 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/security/javaws.policy; size: 98 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/security/policy/limited/local_policy.jar; size: 3527 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/security/policy/limited/US_export_policy.jar; size: 3026 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/security/policy/unlimited/local_policy.jar; size: 3035 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/security/policy/unlimited/US_export_policy.jar; size: 3023 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/zh.GBK/LC_MESSAGES/sunw_java_plugin.mo; size: 2002 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/es/LC_MESSAGES/sunw_java_plugin.mo; size: 2477 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/fr/LC_MESSAGES/sunw_java_plugin.mo; size: 2746 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/ko/LC_MESSAGES/sunw_java_plugin.mo; size: 2399 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/de/LC_MESSAGES/sunw_java_plugin.mo; size: 2483 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/zh/LC_MESSAGES/sunw_java_plugin.mo; size: 2002 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/zh_TW.BIG5/LC_MESSAGES/sunw_java_plugin.mo; size: 2025 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/zh_TW/LC_MESSAGES/sunw_java_plugin.mo; size: 2025 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/it/LC_MESSAGES/sunw_java_plugin.mo; size: 2434 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/ja/LC_MESSAGES/sunw_java_plugin.mo; size: 2415 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/pt_BR/LC_MESSAGES/sunw_java_plugin.mo; size: 2420 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/ko.UTF-8/LC_MESSAGES/sunw_java_plugin.mo; size: 2753 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/zh_HK.BIG5HK/LC_MESSAGES/sunw_java_plugin.mo; size: 2025 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/locale/sv/LC_MESSAGES/sunw_java_plugin.mo; size: 2359 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/cmm/sRGB.pf; size: 3144 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/cmm/CIEXYZ.pf; size: 51236 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/cmm/PYCC.pf; size: 274474 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/cmm/GRAY.pf; size: 632 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/lib/cmm/LINEAR_RGB.pf; size: 1044 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/._ja; size: 212 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/jjs.1; size: 11365 bytes; exists: false
+       File options set to: [fileTime: Sat Dec 15 20:50:17 GMT 2018, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/java.1; size: 148688 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/keytool.1; size: 111033 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/javaws.1; size: 6641 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/pack200.1; size: 14482 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/orbd.1; size: 16092 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/tnameserv.1; size: 17722 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/policytool.1; size: 4020 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/servertool.1; size: 9081 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/unpack200.1; size: 5382 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/rmid.1; size: 19715 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/ja_JP.UTF-8/man1/rmiregistry.1; size: 4557 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/jjs.1; size: 4932 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/java.1; size: 124796 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/keytool.1; size: 86925 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/javaws.1; size: 4897 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/pack200.1; size: 11623 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/orbd.1; size: 12180 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/tnameserv.1; size: 15747 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/policytool.1; size: 3235 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/servertool.1; size: 7237 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/unpack200.1; size: 4244 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/rmid.1; size: 15979 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/man/man1/rmiregistry.1; size: 3449 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/plugin/desktop/sun_java.png; size: 4351 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/plugin/desktop/sun_java.desktop; size: 624 bytes; exists: false
+       Install file: /home/gregor/.local/share/i4j_jres/Oda-jK0QgTEmVssfllLP/1.8.0_202_64/release; size: 424 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/restarter; size: 14094 bytes; exists: false
+       File options set to: [fileTime: Mon Oct 30 20:13:58 GMT 2023, mode: 755, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/s_clyey9.png; size: 209065 bytes; exists: false
+       File options set to: [fileTime: Mon Mar 28 16:46:52 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/tws.png; size: 2566 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/uninstall.png; size: 6648 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 29 08:44:58 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/updater; size: 14086 bytes; exists: false
+       File options set to: [fileTime: Mon Oct 30 20:13:58 GMT 2023, mode: 755, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/updater.png; size: 8252 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 29 08:44:58 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/data/audit.xsl; size: 52128 bytes; exists: false
+       File options set to: [fileTime: Fri May 28 15:44:06 BST 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/data/auditsummary.xsl; size: 47751 bytes; exists: false
+       File options set to: [fileTime: Fri May 28 15:44:28 BST 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/jars/locales.jar; size: 104614 bytes; exists: false
+       File options set to: [fileTime: Tue Dec 10 21:47:00 GMT 2019, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/jars/twslaunch-1025.jar; size: 3742051 bytes; exists: false
+       File options set to: [fileTime: Mon Oct 30 20:11:40 GMT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/tws; size: 15350 bytes; exists: false
+       File options set to: [fileTime: Mon Oct 30 20:13:56 GMT 2023, mode: 755, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/uninstall; size: 14321 bytes; exists: false
+       File options set to: [fileTime: Mon Oct 30 20:13:58 GMT 2023, mode: 700, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/inst_jre.cfg; size: 61 bytes; exists: false
+       File options set to: [fileTime: Wed Nov 01 22:03:36 GMT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/pref_jre.cfg; size: 69 bytes; exists: false
+       File options set to: [fileTime: Wed Nov 01 22:03:36 GMT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4jruntime.jar; size: 2050602 bytes; exists: false
+       File options set to: [fileTime: Wed Nov 01 22:03:36 GMT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/MessagesDefault; size: 34821 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4jparams.conf; size: 195483 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/stats.properties; size: 288 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4jempty.ttf; size: 1004 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/user.jar; size: 76411 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/launcher4fd1c277.jar; size: 775 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/launcher2bfa42ba.jar; size: 767 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/launcher0.jar; size: 724 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/launcher3257f6f9.jar; size: 774 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/launcher5cbd629.jar; size: 952 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/user/flatlaf.jar; size: 709187 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/user/installer-custom.zip; size: 11297 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_9_1fkviev.utf8; size: 32122 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_45_1fkviev_un9apv.png; size: 1884 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_22_1fkviev.properties; size: 935 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_26_1fkviev.utf8; size: 34140 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_25_1fkviev.utf8; size: 38575 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_3_1fkviev.properties; size: 1034 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_30_1fkviev.utf8; size: 37656 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_2_1fkviev.utf8; size: 28354 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_44_1fkviev_vd2dea.png; size: 1187 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_0_1fkviev.utf8; size: 34821 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_34_1fkviev.utf8; size: 53106 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_7_1fkviev.utf8; size: 33738 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_48_1fkviev_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_4_1fkviev.utf8; size: 27664 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_16_1fkviev.properties; size: 987 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_35_1fkviev.properties; size: 3187 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/libi4jinst2.dylib; size: 67472 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_21_1fkviev.utf8; size: 34856 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_24_1fkviev.properties; size: 2138 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_36_1fkviev.utf8; size: 36306 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_38_1fkviev.utf8; size: 31913 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_41_1fkviev_1tf2ja9.png; size: 27099 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_48_1fkviev_18gg8kx_dark.png; size: 8891 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_18_1fkviev.properties; size: 1021 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_27_1fkviev.properties; size: 926 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_23_1fkviev.utf8; size: 44207 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_40_1fkviev_a7hqzf.png; size: 1030 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_33_1fkviev.utf8; size: 37422 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_13_1fkviev.properties; size: 872 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_11_1fkviev.properties; size: 791 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_19_1fkviev.utf8; size: 48909 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_8_1fkviev.properties; size: 1202 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/libi4jinst.dylib; size: 233536 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_32_1fkviev.properties; size: 1075 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_28_1fkviev.utf8; size: 32414 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_46_1fkviev_1xth8wx.png; size: 4609 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_10_1fkviev.utf8; size: 33860 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_1_1fkviev.properties; size: 1337 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_15_1fkviev.utf8; size: 38924 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_48_1fkviev_18gg8kx.png; size: 9202 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_12_1fkviev.utf8; size: 31894 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_20_1fkviev.utf8; size: 36818 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_47_1fkviev_259ij1.png; size: 8252 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_39_1fkviev.utf8; size: 37551 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_31_1fkviev.utf8; size: 35441 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_48_1fkviev_18gg8kx@2x_dark.png; size: 15837 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_37_1fkviev.properties; size: 930 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_17_1fkviev.utf8; size: 37403 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_6_1fkviev.utf8; size: 34268 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_43_1fkviev_x7nby6.png; size: 756 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_14_1fkviev.utf8; size: 32795 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_29_1fkviev.utf8; size: 34755 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_42_1fkviev_kw6g0r.ico; size: 146982 bytes; exists: false
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/i4j_extf_5_1fkviev.properties; size: 1034 bytes; exists: false
+       Execute action successful after 2888 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5603]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_53
+       Property variableName: jarName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: jarName=log4j-api-2.17.1.jar[class java.lang.String]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 6108]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: /tmp/log4j-api-2.17.1.jar.sha256
+       Property url: https://download2.interactivebrokers.com/installers/jars/log4j-api-2.17.1.jar.sha256
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: true
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: false
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: false
+       Download: https://download2.interactivebrokers.com/installers/jars/log4j-api-2.17.1.jar.sha256 to /tmp/log4j-api-2.17.1.jar.sha256; size: 64 bytes
+       Execute action successful after 629 ms
+[INFO] com.install4j.runtime.beans.actions.text.ReadTextFromFileAction [ID 6109]: Execute action
+       Property encoding: UTF-8
+       Property file: /tmp/log4j-api-2.17.1.jar.sha256
+       Property variableName: jarDigest
+       Property rollbackSupported: false
+       Variable changed: jarDigest=b0d8a4c8ab4fb8b1888d0095822703b0e6d4793c419550203da9e69196161de4[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5921]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_54
+       Property variableName: skipDownload
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Local file '/home/gregor/.config/TraderWorkstation/jars/log4j-api-2.17.1.jar' doesn't exist.
+       Variable changed: skipDownload=false[class java.lang.Boolean]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 5204]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: /tmp/log4j-api-2.17.1.jar
+       Property url: https://download2.interactivebrokers.com/installers/jars/log4j-api-2.17.1.jar
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: false
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: true
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: true
+       Download: https://download2.interactivebrokers.com/installers/jars/log4j-api-2.17.1.jar to /tmp/log4j-api-2.17.1.jar; size: 301872 bytes
+       Execute action successful after 407 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6241]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_56
+       Property rollbackSupported: false
+       Calculating digest for '/tmp/log4j-api-2.17.1.jar'...
+       Execute action successful after 34 ms
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 6243]: Execute action
+       Property destinationFile: /home/gregor/.config/TraderWorkstation/jars/log4j-api-2.17.1.jar
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [/tmp/log4j-api-2.17.1.jar]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move /tmp/log4j-api-2.17.1.jar to /home/gregor/.config/TraderWorkstation/jars/log4j-api-2.17.1.jar
+       Install file: /home/gregor/.config/TraderWorkstation/jars/log4j-api-2.17.1.jar; size: 301872 bytes; exists: false
+       File options set to: [fileTime: Wed Nov 01 22:03:37 GMT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up /tmp/log4j-api-2.17.1.jar
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5603]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_53
+       Property variableName: jarName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: jarName=log4j-core-2.17.1.jar[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 6108]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: /tmp/log4j-core-2.17.1.jar.sha256
+       Property url: https://download2.interactivebrokers.com/installers/jars/log4j-core-2.17.1.jar.sha256
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: true
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: false
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: false
+       Download: https://download2.interactivebrokers.com/installers/jars/log4j-core-2.17.1.jar.sha256 to /tmp/log4j-core-2.17.1.jar.sha256; size: 64 bytes
+       Execute action successful after 76 ms
+[INFO] com.install4j.runtime.beans.actions.text.ReadTextFromFileAction [ID 6109]: Execute action
+       Property encoding: UTF-8
+       Property file: /tmp/log4j-core-2.17.1.jar.sha256
+       Property variableName: jarDigest
+       Property rollbackSupported: false
+       Variable changed: jarDigest=c967f223487980b9364e94a7c7f9a8a01fd3ee7c19bdbf0b0f9f8cb8511f3d41[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5921]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_54
+       Property variableName: skipDownload
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Local file '/home/gregor/.config/TraderWorkstation/jars/log4j-core-2.17.1.jar' doesn't exist.
+       Variable changed: skipDownload=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 5204]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: /tmp/log4j-core-2.17.1.jar
+       Property url: https://download2.interactivebrokers.com/installers/jars/log4j-core-2.17.1.jar
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: false
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: true
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: true
+       Download: https://download2.interactivebrokers.com/installers/jars/log4j-core-2.17.1.jar to /tmp/log4j-core-2.17.1.jar; size: 1790452 bytes
+       Execute action successful after 1256 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6241]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_56
+       Property rollbackSupported: false
+       Calculating digest for '/tmp/log4j-core-2.17.1.jar'...
+       Execute action successful after 74 ms
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 6243]: Execute action
+       Property destinationFile: /home/gregor/.config/TraderWorkstation/jars/log4j-core-2.17.1.jar
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [/tmp/log4j-core-2.17.1.jar]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move /tmp/log4j-core-2.17.1.jar to /home/gregor/.config/TraderWorkstation/jars/log4j-core-2.17.1.jar
+       Install file: /home/gregor/.config/TraderWorkstation/jars/log4j-core-2.17.1.jar; size: 1790452 bytes; exists: false
+       File options set to: [fileTime: Wed Nov 01 22:03:38 GMT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up /tmp/log4j-core-2.17.1.jar
+       Execute action successful after 4 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5603]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_53
+       Property variableName: jarName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: jarName=commons-io-2.11.0.jar[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 6108]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: /tmp/commons-io-2.11.0.jar.sha256
+       Property url: https://download2.interactivebrokers.com/installers/jars/commons-io-2.11.0.jar.sha256
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: true
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: false
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: false
+       Download: https://download2.interactivebrokers.com/installers/jars/commons-io-2.11.0.jar.sha256 to /tmp/commons-io-2.11.0.jar.sha256; size: 64 bytes
+       Execute action successful after 78 ms
+[INFO] com.install4j.runtime.beans.actions.text.ReadTextFromFileAction [ID 6109]: Execute action
+       Property encoding: UTF-8
+       Property file: /tmp/commons-io-2.11.0.jar.sha256
+       Property variableName: jarDigest
+       Property rollbackSupported: false
+       Variable changed: jarDigest=961b2f6d87dbacc5d54abf45ab7a6e2495f89b75598962d8c723cea9bc210908[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5921]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_54
+       Property variableName: skipDownload
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Local file '/home/gregor/.config/TraderWorkstation/jars/commons-io-2.11.0.jar' doesn't exist.
+       Variable changed: skipDownload=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 5204]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: /tmp/commons-io-2.11.0.jar
+       Property url: https://download2.interactivebrokers.com/installers/jars/commons-io-2.11.0.jar
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: false
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: true
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: true
+       Download: https://download2.interactivebrokers.com/installers/jars/commons-io-2.11.0.jar to /tmp/commons-io-2.11.0.jar; size: 327135 bytes
+       Execute action successful after 411 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6241]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_56
+       Property rollbackSupported: false
+       Calculating digest for '/tmp/commons-io-2.11.0.jar'...
+       Execute action successful after 10 ms
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 6243]: Execute action
+       Property destinationFile: /home/gregor/.config/TraderWorkstation/jars/commons-io-2.11.0.jar
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [/tmp/commons-io-2.11.0.jar]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move /tmp/commons-io-2.11.0.jar to /home/gregor/.config/TraderWorkstation/jars/commons-io-2.11.0.jar
+       Install file: /home/gregor/.config/TraderWorkstation/jars/commons-io-2.11.0.jar; size: 327135 bytes; exists: false
+       File options set to: [fileTime: Wed Nov 01 22:03:39 GMT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up /tmp/commons-io-2.11.0.jar
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5603]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_53
+       Property variableName: jarName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: jarName=jackson-core-2.12.3.jar[class java.lang.String]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 6108]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: /tmp/jackson-core-2.12.3.jar.sha256
+       Property url: https://download2.interactivebrokers.com/installers/jars/jackson-core-2.12.3.jar.sha256
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: true
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: false
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: false
+       Download: https://download2.interactivebrokers.com/installers/jars/jackson-core-2.12.3.jar.sha256 to /tmp/jackson-core-2.12.3.jar.sha256; size: 64 bytes
+       Execute action successful after 75 ms
+[INFO] com.install4j.runtime.beans.actions.text.ReadTextFromFileAction [ID 6109]: Execute action
+       Property encoding: UTF-8
+       Property file: /tmp/jackson-core-2.12.3.jar.sha256
+       Property variableName: jarDigest
+       Property rollbackSupported: false
+       Variable changed: jarDigest=baef34fbce041d54f3af3ff4fc917ed8b43ed2a6fa30e0a6abfd9a2b2c3f71e0[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5921]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_54
+       Property variableName: skipDownload
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Local file '/home/gregor/.config/TraderWorkstation/jars/jackson-core-2.12.3.jar' doesn't exist.
+       Variable changed: skipDownload=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 5204]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: /tmp/jackson-core-2.12.3.jar
+       Property url: https://download2.interactivebrokers.com/installers/jars/jackson-core-2.12.3.jar
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: false
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: true
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: true
+       Download: https://download2.interactivebrokers.com/installers/jars/jackson-core-2.12.3.jar to /tmp/jackson-core-2.12.3.jar; size: 365220 bytes
+       Execute action successful after 345 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6241]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_56
+       Property rollbackSupported: false
+       Calculating digest for '/tmp/jackson-core-2.12.3.jar'...
+       Execute action successful after 10 ms
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 6243]: Execute action
+       Property destinationFile: /home/gregor/.config/TraderWorkstation/jars/jackson-core-2.12.3.jar
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [/tmp/jackson-core-2.12.3.jar]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move /tmp/jackson-core-2.12.3.jar to /home/gregor/.config/TraderWorkstation/jars/jackson-core-2.12.3.jar
+       Install file: /home/gregor/.config/TraderWorkstation/jars/jackson-core-2.12.3.jar; size: 365220 bytes; exists: false
+       File options set to: [fileTime: Wed Nov 01 22:03:39 GMT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up /tmp/jackson-core-2.12.3.jar
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5603]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_53
+       Property variableName: jarName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: jarName=twslaunch-install4j-1.12.jar[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 6108]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: /tmp/twslaunch-install4j-1.12.jar.sha256
+       Property url: https://download2.interactivebrokers.com/installers/jars/twslaunch-install4j-1.12.jar.sha256
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: true
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: false
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: false
+       Download: https://download2.interactivebrokers.com/installers/jars/twslaunch-install4j-1.12.jar.sha256 to /tmp/twslaunch-install4j-1.12.jar.sha256; size: 64 bytes
+       Execute action successful after 76 ms
+[INFO] com.install4j.runtime.beans.actions.text.ReadTextFromFileAction [ID 6109]: Execute action
+       Property encoding: UTF-8
+       Property file: /tmp/twslaunch-install4j-1.12.jar.sha256
+       Property variableName: jarDigest
+       Property rollbackSupported: false
+       Variable changed: jarDigest=ff4b4710fdbfd1377e46ec24a8541df52a83af952f34fa4861edaa4395f327b8[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5921]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_54
+       Property variableName: skipDownload
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Local file '/home/gregor/.config/TraderWorkstation/jars/twslaunch-install4j-1.12.jar' doesn't exist.
+       Variable changed: skipDownload=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 5204]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: /tmp/twslaunch-install4j-1.12.jar
+       Property url: https://download2.interactivebrokers.com/installers/jars/twslaunch-install4j-1.12.jar
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: false
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: true
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: true
+       Download: https://download2.interactivebrokers.com/installers/jars/twslaunch-install4j-1.12.jar to /tmp/twslaunch-install4j-1.12.jar; size: 14786 bytes
+       Execute action successful after 89 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6241]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_56
+       Property rollbackSupported: false
+       Calculating digest for '/tmp/twslaunch-install4j-1.12.jar'...
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 6243]: Execute action
+       Property destinationFile: /home/gregor/.config/TraderWorkstation/jars/twslaunch-install4j-1.12.jar
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [/tmp/twslaunch-install4j-1.12.jar]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move /tmp/twslaunch-install4j-1.12.jar to /home/gregor/.config/TraderWorkstation/jars/twslaunch-install4j-1.12.jar
+       Install file: /home/gregor/.config/TraderWorkstation/jars/twslaunch-install4j-1.12.jar; size: 14786 bytes; exists: false
+       File options set to: [fileTime: Wed Nov 01 22:03:40 GMT 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up /tmp/twslaunch-install4j-1.12.jar
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 2076]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_59
+       Property rollbackSupported: false
+       Creating '/home/gregor/Jts' directory...
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.text.WriteTextFileAction [ID 2307]: Execute action
+       Property encoding: 
+       Property file: /home/gregor/.config/TraderWorkstation/tws.vmoptions
+       Property text: #
+# This file contains VM parameters for Trader Workstation.
+# Each parameter should be defined in a separate line and the
+# last line must be followed by a line feed. No leading or
+# trailing whitespaces are allowed in the same line, where a
+# parameter is defined.
+#
+# Lines starting with a '#' character are treated as comments
+# and ignored. Additionally, if a line contains a
+# '### keep on update' string, all parameters defined below will
+# be preserved on update.
+#
+
+# maximum Java heap size
+-Xmx768m
+
+# GC settings
+-XX:+UseG1GC
+-XX:MaxGCPauseMillis=200
+-XX:ParallelGCThreads=20
+-XX:ConcGCThreads=5
+-XX:InitiatingHeapOccupancyPercent=70
+
+# preferred channel for updates ("stable", "latest", "beta")
+-Dchannel=latest
+
+-Dinstaller.uuid=c0e4d90b-b1ae-4277-8223-d01e984b6f5f
+-DvmOptionsPath=/home/gregor/.config/TraderWorkstation/tws.vmoptions
+-Dsun.awt.nopixfmt=true
+-Dsun.java2d.noddraw=true
+-Dswing.boldMetal=false
+-Dsun.locale.formatasdefault=true
+
+### keep on update
+
+       Property append: false
+       Property escaped: false
+       Property logText: true
+       Property rollbackSupported: true
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property categories: Application
+       Property linkDirectory: /usr/local/bin
+       Property programGroupEntryConfigs: []
+       Property programGroupName: Trader Workstation
+       Property uninstallerMenuName: Trader Workstation Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property allUsers: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Variable changed: sys.programGroupName=Trader Workstation[class java.lang.String]
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Install file: /home/gregor/.config/TraderWorkstation/.install4j/install4j_1ju71tn-tws.desktop; size: 263 bytes; exists: false
+       File options set to: [fileTime: Wed Nov 01 22:03:40 GMT 2023, mode: 755, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+[ERROR] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: could not create symbolic link: /usr/local/bin/tws
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action successful after 520 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: i4j_extf_42_1fkviev_kw6g0r.ico
+       Property iconSource: Custom icon
+       Property itemName: Trader Workstation
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateDesktopLinkAction [ID 54]: Execute action
+       Property additionalDesktopFileEntries: 
+       Property arguments: -J-DjtsConfigDir="/home/gregor/Jts"
+       Property description: Trader Workstation
+       Property file: tws
+       Property name: Trader Workstation
+       Property startIn: null
+       Property unixIconFile: null
+       Property winIconFile: null
+       Property allUsers: true
+       Property macSingleBundleTarget: false
+       Property rollbackSupported: true
+       Property runAsAdministrator: false
+       Install file: /home/gregor/Desktop/Trader Workstation.desktop; size: 302 bytes; exists: false
+       File options set to: [fileTime: Wed Nov 01 22:03:40 GMT 2023, mode: 755, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 5 ms
+[INFO] com.install4j.runtime.beans.actions.text.WriteTextFileAction [ID 2244]: Execute action
+       Property encoding: 
+       Property file: /home/gregor/.config/TraderWorkstation/.install4j/.installSuccess
+       Property text: .
+       Property append: false
+       Property escaped: true
+       Property logText: true
+       Property rollbackSupported: true
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 3770]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_63
+       Property variableName: launcherArgs
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: launcherArgs=[-J-DskipUpdateCheck=false][class [Ljava.lang.String;]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 2986]: Show screen
+       Variable changed: executeLauncherAction=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 2986]: command: finish
+       cleaning up
+       Finished at 2023-11-01 22:03:45

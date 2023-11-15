@@ -1,0 +1,49 @@
+2023/11/14-16:48:25.089 4 Reusing MANIFEST /home/gregor/.config/microsoft-edge/Default/Local Storage/leveldb/MANIFEST-000001
+2023/11/14-16:48:25.091 4 Recovering log #740
+2023/11/14-16:48:25.092 4 Reusing old log /home/gregor/.config/microsoft-edge/Default/Local Storage/leveldb/000740.log 
+2023/11/14-16:48:41.792 4 Level-0 table #744: started
+2023/11/14-16:48:41.800 4 Level-0 table #744: 22729 bytes OK
+2023/11/14-16:48:41.806 4 Delete type=0 #740
+2023/11/14-16:58:11.433 6 Level-0 table #746: started
+2023/11/14-16:58:11.437 6 Level-0 table #746: 18778 bytes OK
+2023/11/14-16:58:11.442 6 Delete type=0 #743
+2023/11/14-17:02:11.433 4 Level-0 table #748: started
+2023/11/14-17:02:11.440 4 Level-0 table #748: 16766 bytes OK
+2023/11/14-17:02:11.444 4 Delete type=0 #745
+2023/11/14-17:02:11.445 4 Compacting 4@0 + 2@1 files
+2023/11/14-17:02:11.500 4 Generated table #749@0: 2271 keys, 2559883 bytes
+2023/11/14-17:02:11.553 4 Generated table #750@0: 702 keys, 2143685 bytes
+2023/11/14-17:02:11.553 4 Compacted 4@0 + 2@1 files => 4703568 bytes
+2023/11/14-17:02:11.557 4 compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/11/14-17:02:11.558 4 Delete type=2 #746
+2023/11/14-17:02:11.558 4 Delete type=2 #739
+2023/11/14-17:02:11.558 4 Delete type=2 #738
+2023/11/14-17:02:11.558 4 Delete type=2 #748
+2023/11/14-17:02:11.559 4 Delete type=2 #744
+2023/11/14-17:02:11.559 4 Delete type=2 #741
+2023/11/14-17:04:11.433 6 Level-0 table #752: started
+2023/11/14-17:04:11.442 6 Level-0 table #752: 15193 bytes OK
+2023/11/14-17:04:11.446 6 Delete type=0 #747
+2023/11/14-17:06:09.976 4 Level-0 table #754: started
+2023/11/14-17:06:09.999 4 Level-0 table #754: 21537 bytes OK
+2023/11/14-17:06:10.003 4 Delete type=0 #751
+2023/11/14-17:08:11.433 6 Level-0 table #756: started
+2023/11/14-17:08:11.440 6 Level-0 table #756: 17178 bytes OK
+2023/11/14-17:08:11.444 6 Delete type=0 #753
+2023/11/14-17:14:52.083 6 Level-0 table #758: started
+2023/11/14-17:14:52.091 6 Level-0 table #758: 19524 bytes OK
+2023/11/14-17:14:52.097 6 Delete type=0 #755
+2023/11/14-17:14:52.097 6 Compacting 4@0 + 2@1 files
+2023/11/14-17:14:52.166 6 Generated table #759@0: 2297 keys, 2565363 bytes
+2023/11/14-17:14:52.241 6 Generated table #760@0: 702 keys, 2143869 bytes
+2023/11/14-17:14:52.242 6 Compacted 4@0 + 2@1 files => 4709232 bytes
+2023/11/14-17:14:52.246 6 compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/11/14-17:14:52.248 6 Delete type=2 #750
+2023/11/14-17:14:52.248 6 Delete type=2 #754
+2023/11/14-17:14:52.248 6 Delete type=2 #752
+2023/11/14-17:14:52.248 6 Delete type=2 #758
+2023/11/14-17:14:52.249 6 Delete type=2 #756
+2023/11/14-17:14:52.249 6 Delete type=2 #749
+2023/11/14-17:40:02.346 6 Level-0 table #762: started
+2023/11/14-17:40:02.354 6 Level-0 table #762: 191854 bytes OK
+2023/11/14-17:40:02.359 6 Delete type=0 #757

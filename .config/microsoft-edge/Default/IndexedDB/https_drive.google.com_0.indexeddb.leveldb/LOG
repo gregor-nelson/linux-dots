@@ -1,0 +1,14 @@
+2023/11/14-16:48:36.972 2a8d Creating DB /home/gregor/.config/microsoft-edge/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb since it was missing.
+2023/11/14-16:48:36.980 2a8d Reusing MANIFEST /home/gregor/.config/microsoft-edge/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/14-17:03:17.316 2a8d Level-0 table #5: started
+2023/11/14-17:03:17.348 2a8d Level-0 table #5: 4048625 bytes OK
+2023/11/14-17:03:17.357 2a8d Delete type=0 #3
+2023/11/14-17:05:21.475 2a8c Level-0 table #7: started
+2023/11/14-17:05:21.559 2a8c Level-0 table #7: 4047303 bytes OK
+2023/11/14-17:05:21.564 2a8c Delete type=0 #4
+2023/11/14-17:35:50.583 2a8f Compacting 1@1 + 1@2 files
+2023/11/14-17:35:50.612 2a8f Generated table #8@1: 125 keys, 132145 bytes
+2023/11/14-17:35:50.612 2a8f Compacted 1@1 + 1@2 files => 132145 bytes
+2023/11/14-17:35:50.616 2a8f compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/14-17:35:50.616 2a8f Delete type=2 #7
+2023/11/14-17:35:50.616 2a8f Delete type=2 #5

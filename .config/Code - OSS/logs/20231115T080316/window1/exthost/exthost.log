@@ -1,0 +1,11 @@
+2023-11-15 08:03:19.732 [info] Extension host with pid 13665 started
+2023-11-15 08:03:19.849 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-15 08:03:19.967 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-11-15 08:03:19.973 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-11-15 08:03:20.008 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-15 08:03:20.045 [info] Eager extensions activated
+2023-11-15 08:03:20.085 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-15 08:03:20.103 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-15 08:03:20.120 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-11-15 08:03:35.562 [info] Extension host terminating: renderer closed the MessagePort
+2023-11-15 08:03:35.565 [info] Extension host with pid 13665 exiting with code 0

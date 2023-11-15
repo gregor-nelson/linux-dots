@@ -1,0 +1,102 @@
+{
+   "checksum": "59ec8ac6091d7d3dbdd1cdd033d8e569",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13343357293989018",
+            "date_last_used": "0",
+            "guid": "f28ef444-9c99-4626-8b8b-36f0005b6ca9",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Authorize Interactive Brokers",
+            "show_icon": false,
+            "source": "user_add",
+            "type": "url",
+            "url": "https://wise.com/oauth/authorize/?client_id=interactive-brokers&redirect_uri=https%3A%2F%2Fwww.interactivebrokers.co.uk%2FAccountManagement%2FWiseCallback&state=q2NFRGTNYjr1OIq1HFvkZ1I3L0YJi47C"
+         }, {
+            "date_added": "13343511097015733",
+            "date_last_used": "0",
+            "guid": "ae0d8671-42fd-41f5-b385-da5737aa83b4",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "OptionStrat | Options Profit Calculator, Optimizer, & Options Flow",
+            "show_icon": false,
+            "source": "user_add",
+            "type": "url",
+            "url": "https://optionstrat.com/"
+         }, {
+            "date_added": "13344116944043001",
+            "date_last_used": "0",
+            "guid": "439ebc14-fdd5-4631-8fa9-69243d484cda",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Army of Darkness (1992) - IMDb",
+            "show_icon": false,
+            "source": "user_add",
+            "type": "url",
+            "url": "https://www.imdb.com/title/tt0106308/?ref_=sr_t_824"
+         }, {
+            "date_added": "13344206367805591",
+            "date_last_used": "0",
+            "guid": "5815fe40-0f5b-47b8-9215-e1f374c18f88",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Movie, Release date between 1985-01-01 and 2013-12-29, User rating at least 7.6, Rating count at least 50000 (Sorted by Number of ratings Ascending)",
+            "show_icon": false,
+            "source": "user_add",
+            "type": "url",
+            "url": "https://www.imdb.com/search/title/?title_type=feature&user_rating=7.6,&release_date=1985-01-01,2013-12-29&sort=num_votes,asc&num_votes=50000,"
+         }, {
+            "date_added": "13344296024169398",
+            "date_last_used": "0",
+            "guid": "a525b72d-3563-4d27-ba1c-c8b4e98ad2bc",
+            "id": "19",
+            "name": "Stock Analysis - Free Online Stock Information for Investors",
+            "show_icon": false,
+            "source": "user_copy",
+            "type": "url",
+            "url": "https://stockanalysis.com/"
+         } ],
+         "date_added": "13343307337954111",
+         "date_last_used": "0",
+         "date_modified": "13344296024169398",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favourites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13343307337954115",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favourites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13343307337954117",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favourites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCPl8X4qLAQAAKg4QABgBIAAoBDAAOABAABIAIAEqGEF6cGwva3VFV2UwR2pCQUlpNDBSaGc9PaAGDBKsAQgNEqcBChw2ZWlqby8rWXdBWWlPQm50VnJWSDQ1bllwZXM9EiQ0MzllYmMxNC1mZGQ1LTQ2MzEtOGZhOS02OTI0M2Q0ODRjZGEYACACKAAw////////////ATisiY3VuzFAvYmN1bsxShwzNmdaTU42eVYydm03bUNDM0xLc1VlZkEvWFk9Wh8iHdNabS9uRVQyMWRYcG1mMk5SbWRKYjZ3MnBaZ3M9ZXFRrW8SqwEIBxKmAQocMFdPZE9oNFpubnovekhGRWg0UmZOeGQxLzh3PRIkZjI4ZWY0NDQtOWM5OS00NjI2LThiOGItMzZmMDAwNWI2Y2E5GAAgAigAMP///////////wE4p9vv6rgxQK3b7+q4MUocUm50ZlJ4T3dwdkp6MEJxb2owcXFjRlVkTXc4PVoeIhxNVElvL1F2QkZTeG56dGcxRTREZzIvT1VFUkU9ZST6fycSiQEIAhKEAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkZTA5YjgyNzAtYmUwOS01ZjNjLWFhNTEtNjI3OGMxYzg2NWM1GAAgACgAMK7n46O4MTjW6uOjuDFA1urjo7gxShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKJAQgBEoQBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQ4ZTA2YWZlZS1hNmRmLTUxZmMtOTA1OS1hZmM4ZWI5YTc1NjEYACAAKAAwrefjo7gxOLfq46O4MUC36uOjuDFKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEokBCAMShAEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGQwMzNlMzMzLTkzMDEtNTE1Yi05Yjk1LWIwY2YyMGQ0N2Y4NhgAIAAoADCz5+OjuDE4k+vjo7gxQJPr46O4MUoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASrAEIEBKnAQocMWYwZW95ZEVCZVBJZStWbTJES2drMkNkSS9rPRIkNTgxNWZlNDAtMGY1Yi00N2I4LTkyMTUtZTFmMzc0YzE4Zjg4GAAgAigAMP///////////wE4xIjf/7sxQM+I3/+7MUocbjFueTJtdjhGc3lyNCt5enBiVWh4TVp3OWRFPVofIh3pODhoaTF6NnpEdmd6KzRMM0dFbUpvcHArUDU4PWVxUa1vEqwBCBMSpwEKHFYxTmVvcldIOGplYjZ5VUlLSTA1SHptemFVST0SJGE1MjViNzJkLTM1NjMtNGQyNy1iYTFjLWM4YjRlOThhZDJiYxgAIAIoADD///////////8BOPCgv6q8MUD1oL+qvDFKHEtEL3JhKzFTcko1cDhEb1kzWFRySGdDQWVZUT1aHyId9EFDQzAydmN3N2VMbnVjNHdDckRBNzlHMFRLRT1l9MYNHRKsAQgKEqcBChwrd1dKMmRXTDRNcnZscWZQN3pKZlovRlZZL3c9EiRhZTBkODY3MS00MmZkLTQxZjUtYjM4NS1kYTU3MzdhYTgzYjQYACACKAAw////////////ATi4jZu0uTFAxI2btLkxShxHYmx1TGw0QU9ndjd4WTFGYm1QMkVyODJkK289Wh8iHaYySFNNNkk1TlJBYTR4OHBMSGtHOG9OZmZpekE9ZY3ELIYwADgA",
+   "version": 1
+}
