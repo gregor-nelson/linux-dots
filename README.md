@@ -1,8 +1,4 @@
-# Linux Dotfiles - DWM + One Dark Theme
-
-A complete, production-ready Linux desktop configuration featuring DWM tiling window manager with a beautiful One Dark aesthetic. Perfect for developers and power users who want efficiency without sacrificing visual appeal.
-
-## Features
+# Linux Dotfiles 
 
 ### **Window Management**
 - **DWM (Dynamic Window Manager)** - Lightweight, efficient tiling window manager
@@ -74,6 +70,4 @@ A complete, production-ready Linux desktop configuration featuring DWM tiling wi
 └── local/bin/       # Custom utilities and DWM source
 ```
 
-## **Screenshots**
 
-*Perfect for showcasing your desktop setup with professional theming and efficient workspace management.*
