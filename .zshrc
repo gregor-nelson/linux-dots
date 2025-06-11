@@ -17,7 +17,6 @@ _comp_options+=(globdots)		# Include hidden files.
 
 
 alias lf='lfub'
-alias ncmcpp=" ~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug"
 alias ls='logo-ls'
 alias la='logo-ls -A'
 alias ll='logo-ls -al'

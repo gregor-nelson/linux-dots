@@ -1,5 +1,0 @@
-2023/11/01-21:35:06.929 661e Creating DB /home/gregor/.config/microsoft-edge/Profile 1/EdgeCoupons/coupons_data.db since it was missing.
-2023/11/01-21:35:06.952 661e Reusing MANIFEST /home/gregor/.config/microsoft-edge/Profile 1/EdgeCoupons/coupons_data.db/MANIFEST-000001
-2023/11/01-21:35:11.561 6560 Level-0 table #5: started
-2023/11/01-21:35:11.571 6560 Level-0 table #5: 659449 bytes OK
-2023/11/01-21:35:11.574 6560 Delete type=0 #3
